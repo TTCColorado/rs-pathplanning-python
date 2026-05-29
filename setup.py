@@ -71,7 +71,7 @@ tests_require = install_requires + ["pytest", "pytest-benchmark"]
 
 setup(
     name="path_planning",
-    version="0.1.4",
+    version="0.2.5",
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Development Status :: 3 - Alpha",

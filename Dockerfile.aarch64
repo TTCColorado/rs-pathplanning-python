@@ -1,4 +1,4 @@
-FROM python@sha256:4d5f0b1b8a310f28e2839050c0ee43bad789154723c21e91bbb5ece29e6d1907
+FROM python:3.10.7
 
 RUN curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain nightly -y
 ENV PATH=/root/.cargo/bin:$PATH

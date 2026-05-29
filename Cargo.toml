@@ -1,6 +1,6 @@
 [package]
 name = "path-planning"
-version = "0.1.4"
+version = "0.2.5"
 authors = ["Travis Sturzl <tsturzl@lefthandrobotics.com>"]
 edition = "2018"
 
@@ -13,7 +13,7 @@ lto = true
 
 [dependencies]
 pathplanning = { path = "./rs-pathplanning" }
-geo = "0.18.0"
+geo = "0.33.1"
 
 [dependencies.pyo3]
 version = "0.13.0"
