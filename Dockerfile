@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.10.7
 
 RUN curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain nightly -y
 ENV PATH=/root/.cargo/bin:$PATH
